@@ -1,0 +1,364 @@
+html
+{
+    background-color: #9e1c1c;
+}
+
+body
+{
+    margin: 1% auto;
+    border: thick #F2DE9D groove;
+    width: 960px
+}
+
+/*
+* Header Section
+*/
+
+header
+{
+    background-color: #F2DE9D;
+    display: block;
+    vertical-align: middle;
+    text-align: center;
+    height: 250px;
+}
+
+header > h1
+{
+    display: block;
+    margin: 0px;
+    height: inherit;
+}
+
+#header_center_div
+{
+    display: inline-block;
+    text-align: center;
+    font-size: x-large;
+    height: 250px;
+    width: 960px;
+    background-color: inherit;
+    font-family: fantasy;
+    background-image: url('../images/fort_churchill_header.jpg');
+
+}
+
+#header_title
+{
+    position: absolute;
+
+}
+
+#header_center_div > img
+{
+    height: 250px;
+    width: 960px;
+}
+
+#header_right_div
+{
+    display: inline-block;
+    float: right;
+
+}
+
+#header_left_div
+{
+    display: inline-block;
+    float: left;
+}
+
+/*
+* Navigation Bar Section
+*/
+
+nav
+{
+    background-color: #F2DE9D;
+    width: 100%;
+    border-top: medium groove;
+    border-bottom: medium groove;
+    height: 2em;
+
+}
+
+nav > ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+
+nav > ul > li
+{
+    display: inline;
+    float: left;
+    width: 33.3%;
+    font-family: fantasy;
+}
+
+nav > ul > li > a
+{
+    background-color: #F2DE9D;
+    display: block;
+    font-size: larger;
+    height: 30px;
+    color: black;
+    border: solid #F2DE9D;
+    border-top: 3px solid #F2DE9D;
+}
+
+
+
+/*
+* Footer Section
+*/
+
+footer
+{
+    text-align: center;
+    display: block;
+}
+
+/*
+*
+*/
+
+#main_content
+{
+    background-color: #ffffff;
+    width: 98%;
+    display: inline-block;
+    border: 10px ridge #9e1c1c;
+
+}
+
+#main_content h1
+{
+    margin: 2% 2%;
+    display: inline-block;
+    width: 90%;
+    text-align: center;
+
+}
+
+/*
+* Home Page
+*/
+
+#home_page_content
+{
+    height: 420px;
+}
+
+#home_left_div
+{
+    float: left;
+    display: inline-block;
+    width: 40%;
+    height: 98%;
+}
+
+
+#home_left_div > h2
+{
+    margin: 4%;
+}
+
+#home_left_div > p
+{
+    margin: 6%;
+    font-family: sans-serif;
+    font-size: large;
+}
+
+#home_right_div
+{
+    float: right;
+    display: inline-block;
+    width: 60%;
+    height: 98%;
+}
+
+#google_map
+{
+    width: 98%;
+    height: 98%;
+}
+
+
+
+/*
+* Features Page
+*/
+
+#features_page_content
+{
+    height: 450px;
+}
+
+#features_left_div
+{
+    float: left;
+    display: inline-block;
+    width: 50%;
+    height: 99%;
+}
+
+#features_right_div
+{
+    float: right;
+    display: inline-block;
+    width: 50%;
+    height: 99%;
+}
+
+
+#features_photo_box_top > img, #features_photo_box_bottom > img
+{
+    width: 210px;
+    height: 190px;
+}
+
+.features_photo_box_photo
+{
+    border: solid black 5px;
+    margin: 0px;
+}
+
+#features_page_content > h1
+{
+    width: 99%;
+    height: 50px;
+    margin: 15px 0px 25px 0px;
+}
+
+#features_list li
+{
+    margin: 20px 5px 10px 5px;
+    font-family: sans-serif;
+    font-size: large;
+}
+
+/*
+* Prices Page
+*/
+#pricing_page_content
+{
+    height: 590px;
+}
+
+#pricing_left_div
+{
+    float: left;
+    display: inline-block;
+    width: 50%;
+    height: 480px;
+}
+
+#pricing_right_div
+{
+    float: right;
+    display: inline-block;
+    width: 50%;
+    height: 480px;
+}
+
+#pricing_photo_box_top > img, #pricing_photo_box_bottom > img
+{
+    width: 310px;
+    height: 210px;
+}
+
+.pricing_photo_box_photo
+{
+    border: solid black 5px;
+    margin: 0px;
+}
+
+#pricing_info
+{
+    margin-left: 10%;
+    margin-right: 5%;
+    font-family: sans-serif;
+    font-size: large;
+}
+
+#pricing_table
+{
+    width: 85%;
+    border-collapse: collapse;
+    font-family: sans-serif;
+    margin-left: 10%;
+}
+#pricing_table th, #pricing_table td
+{
+    font-size: 1.2em;
+    border: 3px solid black;
+    padding: 3px 7px 2px 7px;
+}
+
+#pricing_table th
+{
+    font-size: 1.4em;
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    background-color: #9e1c1c;
+    color: #ffffff;
+}
+
+#pricing_table tr.alt td
+{
+    color: cornsilk;
+    background-color: #EAF2D3;
+}
+
+/*
+* About Page
+*/
+#about_page_content
+{
+    height: 500px;
+}
+
+#about_left_div
+{
+    float: left;
+    display: inline-block;
+    width: 50%;
+    height: 480px;
+}
+#about_left_div > h2
+{
+    margin: 5%;
+}
+#about_right_div
+{
+    float: right;
+    display: inline-block;
+    width: 50%;
+    height: 480px;
+}
+
+#about_photo_box_top > img, #about_photo_box_bottom > img
+{
+    width: 310px;
+    height: 210px;
+}
+
+.about_photo_box_photo
+{
+    border: solid black 5px;
+    margin: 0px;
+}
+
+#about_info
+{
+    margin-left: 10%;
+    margin-right: 5%;
+    font-family: sans-serif;
+    font-size: large;
+}
