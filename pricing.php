@@ -13,7 +13,7 @@
 
 	<div id = 'pricing_page_content'>
 
-		<h1>Best quality in town!</h1>
+		<h1>Best value in town!</h1>
 
 		<div id = 'pricing_left_div'>
 
@@ -21,7 +21,7 @@
 
 			include('includes/arrays/prices.php');
 
-			create_price_table('fort_churchill',$prices);
+			create_price_table('lahontan',$prices);
 
 			?>
 
@@ -33,8 +33,10 @@
 				Prepay for 11 months and get the 12th month free!
 				<br>
 				<br>
-				Save on late charges!! We offer automatic monthly billing for Visa and Mastercard customers.
+				Save on late charges! We offer automatic monthly billing for Visa and Mastercard customers.
 			</p>
+
+
 
 
 
@@ -46,14 +48,14 @@
 
 					<div id = 'pricing_photo_box_top'>
 
-						<img src="images/fort_churchill_sheds_1.jpg" class = 'features_photo_box_photo'>
+						<img src="images/lahontan_sign_1.jpg" class = 'features_photo_box_photo'>
 
 
 					</div>
 
 					<div id = 'pricing_photo_box_bottom'>
 
-						<img src="images/fort_churchill_sign_1.jpg" class = 'features_photo_box_photo'>
+						<img src="images/lahontan_sheds_2.jpg" class = 'features_photo_box_photo'>
 
 
 					</div>
