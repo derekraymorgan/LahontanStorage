@@ -1,0 +1,2 @@
+[07-Mar-2015 10:37:51 America/Denver] PHP Warning:  include(): Failed opening 'includes/sections/header.php' for inclusion (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home1/mystatsc/public_html/lahontanstorage/index.php on line 7
+[07-Mar-2015 10:37:51 America/Denver] PHP Warning:  include(): Failed opening 'includes/sections/footer.php' for inclusion (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home1/mystatsc/public_html/lahontanstorage/index.php on line 53
