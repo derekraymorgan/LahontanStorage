@@ -1,46 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="On explicit save action" promptOnRemoteOverwrite="CHECK_TIMESTAMP" serverName="Lahontan Storage Bluehost" deleteMissingItems="true" createEmptyFolders="true">
+  <component name="PublishConfigData" autoUpload="On explicit save action" promptOnRemoteOverwrite="CHECK_TIMESTAMP" deleteMissingItems="true" createEmptyFolders="true">
     <serverData>
       <paths name="BlueHost Server">
         <serverdata>
           <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/public_html/lahontanstorage" local="$PROJECT_DIR$" web="/lahontanstorage" />
           </mappings>
-        </serverdata>
-      </paths>
-      <paths name="Bluehost ACM Server">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="Fort Churchill Storage Bluehost">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
-          </mappings>
+          <excludedPaths>
+            <excludedPath path="/public_html/lahontanstorage/cams" />
+          </excludedPaths>
         </serverdata>
       </paths>
       <paths name="Fort Churchill Storage GoDaddy">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="Laffins Veterinary Services">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="Lahontan Storage Bluehost">
-        <serverdata>
-          <mappings>
-            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
@@ -52,13 +27,6 @@
         </serverdata>
       </paths>
       <paths name="NHSP DEV SERVER">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="NHSP Laravel">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
