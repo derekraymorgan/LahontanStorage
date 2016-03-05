@@ -30,7 +30,7 @@ include('includes/sections/nav.php');
 
 <div class="row mainContent">
 
-	<h1 class="row pageTitle">Best quality in town!</h1>
+	<h1 class="row pageTitle">Best value in town!</h1>
 
 	<div class="row">
 
@@ -40,7 +40,7 @@ include('includes/sections/nav.php');
 
 			include('includes/arrays/prices.php');
 
-			create_price_table('fort_churchill',$prices);
+			create_price_table('lahontan',$prices);
 
 			?>
 
@@ -64,13 +64,13 @@ include('includes/sections/nav.php');
 
 			<div id = 'pricing_photo_box_top'>
 
-				<img class="img-thumbnail" src="images/fort_churchill_sheds_1.jpg" class = 'features_photo_box_photo'>
+				<img class="img-thumbnail" src="images/lahontan_sheds_2.jpg" class = 'features_photo_box_photo'>
 
 			</div>
 
 			<div id = 'pricing_photo_box_bottom'>
 
-				<img class="img-thumbnail" src="images/fort_churchill_sign_1.jpg" class = 'features_photo_box_photo'>
+				<img class="img-thumbnail" src="images/lahontan_sign_1.jpg" class = 'features_photo_box_photo'>
 
 			</div>
 

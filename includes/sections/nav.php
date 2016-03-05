@@ -4,7 +4,7 @@
 		<div class="navbar-header">
 
 			<a href="index.php" class="navbar-brand">
-				Fort Churchill Storage
+				Lahontan Storage
 			</a>
 
 			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsemenu">
