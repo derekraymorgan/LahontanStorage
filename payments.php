@@ -30,6 +30,8 @@ include('includes/sections/nav.php');
 
 	<h2 class="row pageTitle">Choose from the payment options below.</h2>
 
+	<br>
+
 	<div class="row payments">
 
 		<div class="col-xs-12 col-md-6">

@@ -1,11 +1,11 @@
 html
 {
-    background-color: #9e1c1c;
+    background-color: steelblue;
 }
 
 body
 {
-    border: thick #F2DE9D groove;
+    border: thick #4851c9 groove;
     width: 90%;
     max-width: 1100px;
 }
@@ -18,7 +18,7 @@ body
 {
     width:100%;
     height:250px;
-    background-image:url('../images/fort_churchill_header.jpg');
+    background-image:url('../images/lahontan_header.jpg');
     background-size:cover;
 }
 
@@ -108,7 +108,7 @@ body
 
 .textOffset
 {
-    padding-left: 5px;
+    padding-left: 4%;
 }
 
 /*
@@ -117,15 +117,15 @@ body
 
 .mainContent
 {
-    border: 10px ridge #9e1c1c;
+    border: 10px ridge #4851c9;
 
 }
 
 
 
 .navbar-default {
-   background-color: #f2de9d;
-   border-color: #c0392b;
+   background-color: #c3c8c3;
+   border-color: #4851c9;
 }
 .navbar-default .navbar-brand {
     color: #000000;
@@ -148,20 +148,20 @@ body
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
     color: #000000;
-    background-color: #c0392b;
+    background-color: #4851c9;
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
     color: #000000;
-    background-color: #c0392b;
+    background-color: #4851c9;
 }
 .navbar-default .navbar-toggle {
-    border-color: #c0392b;
+    border-color: #4851c9;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #c0392b;
+    background-color: #4851c9;
 }
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #000000;
@@ -189,7 +189,7 @@ body
     .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
     .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
         color: #000000;
-        background-color: #c0392b;
+        background-color: #4851c9;
     }
 }
 
@@ -242,7 +242,7 @@ footer
 
 #features_list li
 {
-    margin: 5px 0px 0px 0px;
+    margin: 5px 0px 0px 4%;
     font-size: 120%;
 
 }
@@ -310,13 +310,13 @@ footer
     text-align: left;
     padding-top: 5px;
     padding-bottom: 4px;
-    background-color: #c0392b;
+    background-color: #4851c9;
     color: #ffffff;
 }
 
 #pricing_table tr.alt td
 {
-    color: #c0392b;
+    color: #4851c9;
     background-color: #EAF2D3;
 }
 

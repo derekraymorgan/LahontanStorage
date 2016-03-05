@@ -32,6 +32,8 @@ include('includes/sections/nav.php');
 
 	<h1 class="row pageTitle">Best value in town!</h1>
 
+	<br>
+
 	<div class="row">
 
 		<div class="col-xs-12 col-sm-12 col-md-6 textSizer">

@@ -27,6 +27,8 @@ include('includes/sections/nav.php');
 
 	<h1 class="row pageTitle">Lahontan Storage has many features!</h1>
 
+	<br>
+
 	<div class="row">
 
 		<div class="col-xs-6 textSizer">
