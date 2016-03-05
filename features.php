@@ -4,52 +4,67 @@
 
 <?php
 
-	include('includes/sections/header.php');
+include('includes/sections/head.php');
 
 ?>
 
-<div id = 'main_content'>
+<body class="container-fluid">
 
-	<div id = 'features_page_content'>
 
-		<h1>Lahontan Storage has many features!</h1>
+<?php
 
-		<div id = 'features_left_div'>
+include('includes/sections/header.php');
 
-			<ul id = 'features_list'>
+?>
 
-				<li>Many different unit sizes ranging from 4x8 to 10x18</li>
-				<li>Fully fenced facility</li>
-				<li>Keypad controlled gate access</li>
-				<li>Security cameras</li>
-				<li>Motion activated lighting</li>
-				<li>Open 7 am - 9 pm (unless prior arrangements are made)</li>
-				<li>Outdoor boat, rv, and auto storage available</li>
+<?php
 
-			</ul>
+include('includes/sections/nav.php');
+
+?>
+
+<div class="row mainContent">
+
+	<h1 class="row pageTitle">Fort Churchill Storage has great features!</h1>
+
+	<div class="row">
+
+		<div class="col-xs-6 textSizer">
+
+			<p class="textOffset">
+				<ul id = 'features_list'>
+
+					<li>Many different unit sizes ranging from 5x10 to 10x40</li>
+					<li>Fully fenced and paved facility</li>
+					<li>Keypad controlled gate access</li>
+					<li>Security cameras</li>
+					<li>Open 7 am - 9 pm (unless prior arrangements are made)</li>
+					<li>Covered outdoor boat, rv, and auto storage available</li>
+
+				</ul>
+			</p>
 
 		</div>
 
-		<div id = 'features_right_div'>
 
-			<div id = 'features_photo_box'>
+		<div class="col-xs-6">
 
-				<div id = 'features_photo_box_top'>
+			<div id = 'features_photo_box_top'>
 
-					<img src="images/lahontan_camera_1.jpg" class = 'features_photo_box_photo'>
-					<img src="images/lahontan_sheds_1.jpg" class = 'features_photo_box_photo'>
+				<img class="img-thumbnail" src="images/fort_churchill_gate_1.jpg" class = 'features_photo_box_photo'>
+				<img class="img-thumbnail" src="images/fort_churchill_covered_1.jpg" class = 'features_photo_box_photo'>
 
-				</div>
+			</div>
 
-				<div id = 'features_photo_box_bottom'>
+			<div id = 'features_photo_box_bottom'>
 
-					<img src="images/lahontan_gate_3.jpg" class = 'features_photo_box_photo'>
-					<img src="images/lahontan_keypad_1.jpg" class = 'features_photo_box_photo'>
+				<img class="img-thumbnail hidden-xs" src="images/fort_churchill_camera_1.jpg" class = 'features_photo_box_photo'>
+				<img class="img-thumbnail hidden-xs" src="images/fort_churchill_keypad_1.jpg" class = 'features_photo_box_photo'>
 
-				</div>
 			</div>
 
 		</div>
+
 
 	</div>
 
@@ -66,3 +81,4 @@
 </body>
 
 </html>
+

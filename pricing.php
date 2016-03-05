@@ -1,29 +1,50 @@
+
+
+
 <!DOCTYPE html>
 
 <html lang = "en-US">
 
+
 <?php
 
-	include('includes/sections/header.php');
-	include('includes/functions/create_price_table.php');
+include('includes/sections/head.php');
+include('includes/functions/create_price_table.php');
 
 ?>
 
-<div id = 'main_content'>
+<body class="container-fluid">
 
-	<div id = 'pricing_page_content'>
 
-		<h1>Best value in town!</h1>
+<?php
 
-		<div id = 'pricing_left_div'>
+include('includes/sections/header.php');
+
+?>
+
+<?php
+
+include('includes/sections/nav.php');
+
+?>
+
+<div class="row mainContent">
+
+	<h1 class="row pageTitle">Best quality in town!</h1>
+
+	<div class="row">
+
+		<div class="col-xs-12 col-sm-12 col-md-6 textSizer">
 
 			<?php
 
 			include('includes/arrays/prices.php');
 
-			create_price_table('lahontan',$prices);
+			create_price_table('fort_churchill',$prices);
 
 			?>
+
+			<br>
 
 			<p id = 'pricing_info'>
 				Every new customer must provide an initial deposit of $50. This deposit is fully refundable provided the
@@ -36,32 +57,25 @@
 				Save on late charges! We offer automatic monthly billing for Visa and Mastercard customers.
 			</p>
 
+		</div>
 
 
+		<div class="col-xs-6 hidden-xs hidden-sm">
 
+			<div id = 'pricing_photo_box_top'>
+
+				<img class="img-thumbnail" src="images/fort_churchill_sheds_1.jpg" class = 'features_photo_box_photo'>
+
+			</div>
+
+			<div id = 'pricing_photo_box_bottom'>
+
+				<img class="img-thumbnail" src="images/fort_churchill_sign_1.jpg" class = 'features_photo_box_photo'>
+
+			</div>
 
 		</div>
 
-		<div id = 'pricing_right_div'>
-
-				<div id = 'pricing_photo_box'>
-
-					<div id = 'pricing_photo_box_top'>
-
-						<img src="images/lahontan_sign_1.jpg" class = 'features_photo_box_photo'>
-
-
-					</div>
-
-					<div id = 'pricing_photo_box_bottom'>
-
-						<img src="images/lahontan_sheds_2.jpg" class = 'features_photo_box_photo'>
-
-
-					</div>
-				</div>
-
-		</div>
 
 	</div>
 
@@ -78,3 +92,4 @@
 </body>
 
 </html>
+

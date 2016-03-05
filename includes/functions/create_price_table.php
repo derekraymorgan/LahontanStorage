@@ -4,7 +4,7 @@
 	function create_price_table( $facility_name, $prices)
 	{
 		echo '
-		<table id = "pricing_table">
+		<table id = "pricing_table" class="table">
 
 			<tr>
 				<th>
