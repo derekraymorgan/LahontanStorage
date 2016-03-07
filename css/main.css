@@ -394,8 +394,9 @@ form
 .paymentOption
 {
     border: black 2px solid;
-    margin: 2%;
-    padding: 0px 2% 0px 2%;
+    height: 450px;
+    #padding: 0px 2% 0px 2%;
+    margin-top: 2%;
 }
 
 select
@@ -464,4 +465,3 @@ select option
     -moz-box-shadow: 0 2px 6px black;
     -webkit-box-shadow: 0 2px 6px black;
 }
-
