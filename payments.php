@@ -2,7 +2,6 @@
 
 <html lang = "en-US">
 
-
 <?php
 
 include('includes/sections/head.php');
@@ -44,9 +43,7 @@ include('includes/sections/nav.php');
 
 				<p>If you would like to make a single one time payment then use the form below.</p>
 
-
-
-				<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+				<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" id="singleUnit">
 					<input type="hidden" name="cmd" value="_s-xclick">
 					<input type="hidden" name="hosted_button_id" value="S3X8JKGR22LMS">
 
@@ -54,22 +51,22 @@ include('includes/sections/nav.php');
 					<span>Select storage unit size:</span>
 
 					<select name="os0">
-						<option value="4x8">4x8 $25.00 USD</option>
-						<option value="10x10">10x10 $45.00 USD</option>
-						<option value="10x15">10x15 $55.00 USD</option>
-						<option value="10x18">10x18 $60.00 USD</option>
-						<option value="Open Lot Storage">Open Lot Storage $30.00 USD</option>
+						<option value="4x8">4x8 $30.00 USD</option>
+						<option value="10x10">10x10 $55.00 USD</option>
+						<option value="10x15">10x15 $65.00 USD</option>
+						<option value="10x18">10x18 $70.00 USD</option>
+						<option value="Open Lot Storage">Open Lot Storage $35.00 USD</option>
 					</select>
 
 					<br>
 					<br>
 
-					<input type="hidden" name="on1" value="Customer Name">
+					<input type="hidden" name="on1" value="Customer Name" required>
 					<p>Enter customer name below:</p>
-					<input type="text" name="os1" maxlength="200">
-					<input type="hidden" name="on2" value="Storage Unit Number">
+					<input type="text" name="os1" maxlength="200" id="customerName" required>
+					<input type="hidden" name="on2" value="Storage Unit Number" required digits>
 					<p>Enter storage unit number below:</p>
-					<input type="text" name="os2" maxlength="200">
+					<input type="text" name="os2" maxlength="200" required digits>
 					<br>
 
 					<input type="hidden" name="currency_code" value="USD">
@@ -162,28 +159,28 @@ include('includes/sections/nav.php');
 					<span>Select storage unit size:</span>
 
 					<select name="os0">
-						<option value="4x8">4x8 : $25.00 USD - monthly</option>
-						<option value="10x10">10x10 : $45.00 USD - monthly</option>
-						<option value="10x15">10x15 : $55.00 USD - monthly</option>
-						<option value="10x18">10x18 : $60.00 USD - monthly</option>
-						<option value="Open Lot Storage">Open Lot Storage : $30.00 USD - monthly</option>
+						<option value="4x8">4x8 : $30.00 USD - monthly</option>
+						<option value="10x10">10x10 : $55.00 USD - monthly</option>
+						<option value="10x15">10x15 : $65.00 USD - monthly</option>
+						<option value="10x18">10x18 : $70.00 USD - monthly</option>
+						<option value="Open Lot Storage">Open Lot Storage : $35.00 USD - monthly</option>
 					</select>
 
 					<br>
 
-					<input type="hidden" name="on1" value="Customer Name">
+					<input type="hidden" name="on1" value="Customer Name" required>
 
 					<br>
 					<p>Enter customer name below</p>
 
-					<input type="text" name="os1" maxlength="200">
+					<input type="text" name="os1" maxlength="200" required>
 
-					<input type="hidden" name="on2" value="Storage Unit Number">
+					<input type="hidden" name="on2" value="Storage Unit Number" required>
 
 					<br>
 					<p>Enter storage unit number below:</p>
 
-					<input type="text" name="os2" maxlength="200">
+					<input type="text" name="os2" maxlength="200" required>
 
 					<input type="hidden" name="currency_code" value="USD">
 
@@ -222,6 +219,15 @@ include('includes/sections/nav.php');
 
 
 </body>
+
+<script>
+    alert("test4");
+    $(document).ready(function () {
+
+      $('#singleUnit').validate();
+
+    });
+</script>
 
 </html>
 
